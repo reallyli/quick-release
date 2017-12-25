@@ -1,8 +1,8 @@
 module.exports = {
     deploy: {
-        host: '47.93.197.152',
-        port: 22,
-        username: 'root',
-        execCommand: 'cd /data/www/apollo && git pull'
+        host: 'your-remote-host',
+        port: 22, // default port
+        username: 'root', // default username
+        execCommand: 'cd ~/your-path' // execute the command 
     }
 };
