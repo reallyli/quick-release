@@ -1,0 +1,30 @@
+{
+  "name": "quick-release",
+  "version": "1.0.0",
+  "description": "a quick release of the nodejs command line",
+  "main": "release.config.js",
+  "scripts": {
+    "eslint": "eslint *.js",
+    "deploy": "node release.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reallyli/quick-release.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "reallyli <zlisreallyli@outlook.com> (https://github.com/reallyli)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reallyli/quick-release/issues"
+  },
+  "homepage": "https://github.com/reallyli/quick-release#readme",
+  "devDependencies": {
+    "chalk": "^2.3.0",
+    "eslint": "^4.14.0"
+  },
+  "dependencies": {
+    "ssh2": "^0.5.5"
+  }
+}
