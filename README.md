@@ -4,5 +4,5 @@
 
 ```bash
 #!/bin/bash
-npm run deploy
+npm run deploy --privateKeyPath=your-private-key-path
 ```
